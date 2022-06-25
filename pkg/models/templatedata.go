@@ -1,10 +1,10 @@
 package models
 
-// templateDate creats data for the template package
+// TemplateData holds data sent from handlers to templates
 type TemplateData struct {
 	StringMap map[string]string
 	IntMap    map[string]int
-	FLoatMap  map[string]float32
+	FloatMap  map[string]float32
 	Data      map[string]interface{}
 	CSRFToken string
 	Flash     string
