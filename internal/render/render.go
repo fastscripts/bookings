@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/fastscripts/bookings/pkg/config"
-	"github.com/fastscripts/bookings/pkg/models"
+	"github.com/fastscripts/bookings/internal/config"
+	"github.com/fastscripts/bookings/internal/models"
 	"github.com/justinas/nosurf"
 )
 

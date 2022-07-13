@@ -3,8 +3,8 @@ package main
 import (
 	"net/http"
 
-	"github.com/fastscripts/bookings/pkg/config"
-	"github.com/fastscripts/bookings/pkg/handlers"
+	"github.com/fastscripts/bookings/internal/config"
+	"github.com/fastscripts/bookings/internal/handlers"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
 )

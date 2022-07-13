@@ -6,9 +6,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/fastscripts/bookings/pkg/config"
-	"github.com/fastscripts/bookings/pkg/models"
-	"github.com/fastscripts/bookings/pkg/render"
+	"github.com/fastscripts/bookings/internal/config"
+	"github.com/fastscripts/bookings/internal/models"
+	"github.com/fastscripts/bookings/internal/render"
 )
 
 // Repo the repository used by the handlers
